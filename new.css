@@ -1,0 +1,155 @@
+body,html{
+	 height: 100%;
+	background: url(images/hands.jpg); 
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+
+
+header{
+	width: 100%;
+	background: #000033;
+	color: white;
+	margin: 0;
+	padding: 8px 0px 6px 40px;
+	height: 40px;
+	opacity: 0.6;
+	}
+
+nav ul{
+	display: inline;
+	padding: 0px;
+    float: left;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	margin-left:  10px;
+	margin-right: 
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+
+#nav{
+
+	font-family: 'Helvetica',sans-serif;
+
+}
+
+.red{
+	background: red;
+	padding: 24px 10px 13px 10px; 
+}
+
+.black:hover{
+     background-color: #669900;
+     padding: 24px 10px 13px 10px; 
+}
+
+.divider{
+	background-color: red ;
+	height: 3px;
+}
+
+
+
+#container{
+    width: 600px;
+    height: 350px;
+    margin:80px 0px 0px 310px;
+     border-radius: 25px;
+    background: lightgreen;
+    padding: 50px; 
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+   
+
+
+ article{
+        
+        padding:1px ;
+        margin: 20px 20px 40px 20px; 
+    }
+   
+    
+    article  p
+    {
+        text-align: center;
+    font-size: 18px;
+       
+    }
+    section.post-head {
+           display: block;
+           margin: 0 0 50px;
+           padding: 0 0 -50px;
+           border-bottom: solid 1px purple;
+           color: darkblue;
+
+    }
+
+    section.post-foot{
+         
+        border-top: solid 1px purple;
+        margin: 60px 0 0;
+        padding: 50px 0 0;
+    }
+
+
+
+table th{
+
+    font-size: 25px;
+    border:1px solid black;
+      background-color: lightcoral;
+      padding: 8px;
+}
+
+table,td{
+
+    opacity: .9;
+  background-color: lightgreen;
+    border:1px solid #070f40;
+padding: 3px;}
+
+table {
+
+    
+    border-spacing: 15px;
+    margin:80px 0px 0px 20px;
+}
+ 
+ table  td:hover {background-color: lightcoral;}
+
+
+
+
+
+
+#conlink{
+    width: 600px;
+    height: 350px;
+    margin:80px 0px 0px 310px;
+     border-radius: 25px;
+    background: lightgreen;
+    padding: 50px; 
+    
+    text-align: center;
+    font-size: 20px;
+    
+}
