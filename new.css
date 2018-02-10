@@ -123,22 +123,24 @@ nav ul li a{
 
 
  article{
-        
+         
         padding:1px ;
         margin: 20px 20px 40px 20px; 
     }
    
     
     article  p
-    {
+    { 
         text-align: center;
     font-size: 18px;
        
     }
+
+    
     section.post-head {
            display: block;
-           margin: 0 0 50px;
-           padding: 0px 0 -250px 50px;
+           margin: 0 0 60px;
+           padding: 0px 0 -250px 10px;
            border-bottom: solid 1px purple;
            color: darkblue;
 
@@ -147,7 +149,7 @@ nav ul li a{
     section.post-foot{
          
         border-top: solid 1px purple;
-        margin: 50px 0 0;
+        margin: 60px 0 0;
         padding: 50px 0 0;
     }
 
@@ -156,7 +158,7 @@ nav ul li a{
 
 
 
-table th{
+table,th{
 border-radius: 5px;
     font-size: 25px;
     border:1px solid black;
@@ -166,13 +168,16 @@ border-radius: 5px;
 
 table,td{
 border-radius: 5px;
+font-size: 20px;
+font-weight: bold;
     opacity: .9;
   background-color: lightgreen;
     border:1px solid #070f40;
 padding: 3px;}
 
 table {
-      
+
+     
     border-radius: 5px;
     border-spacing: 15px;
     margin:40px 0px 0px 20px;
@@ -296,12 +301,14 @@ input[type=text], select, textarea {
 
 
 input[type=submit] {
-    background-color: green ;
+    background-color: orange ;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
+
 }
 
 
@@ -318,10 +325,11 @@ input[type=submit]:hover {
   background-color: darkblue;
     border-radius: 5px;
     padding: 20px;
-    font-family: 'sans-serif'
+    font-family: 'sans-serif';
+    font-weight: bold;
 } 
  
- containerC h2{
+ .containerC h2{
 
   font-family: Italic;
  }
